@@ -4,10 +4,7 @@
     font-weight: normal;
 }
 body{
-padding-block: 100px;
-padding-left: 30%;
     background: linear-gradient(to right,#00eaff, #00ff6c);
-    align-content: center;
 }
 .container{
     justify-content: center;

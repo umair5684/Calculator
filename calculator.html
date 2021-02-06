@@ -9,56 +9,84 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <textarea id="demo" rows="4" cols="33" readonly>
-           
-        </textarea>
-    </div>
-    <div class="container mt-2">
-        <div class="cal ">
-        <div class="row">
 
-            <div class="col-1">
-                <button type="button" class="btn btn-light "onclick="myFunction('(')">(</button>
+<div class="row mt-5">
+    <div class="col-md-3 shadow m-auto bg-white">
+        <div class="row shadow mb-5">
+            <textarea id="demo" rows="4" cols="33" readonly ></textarea>
+        </div>
+        <div class="row ">
+            <div class="col-3 d-grid">
+                <button type="button" class="shadow btn btn-lg btn-light " onclick="myFunction('(')">(</button>
             </div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction(')')">)</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction('%')">%</button></div>
-            <div class="col-1  "><button type="button" class="btn btn-light  btn-block btn-default "onclick="myFunction(5)">CE</button></div>
-          </div>
+            <div class="col-3 d-grid">
+                <button type="button" class="shadow btn btn-light btn-lg btn-block" onclick="myFunction(')')">)</button>
+            </div>
+            <div class="col-3 d-grid">
+                <button type="button" class="shadow btn btn-light btn-lg btn-block" onclick="myFunction('%')">%</button>
+            </div>
+            <div class="col-md-3 d-grid">
+                <button type="button" class="shadow btn btn-light  btn-lg btn-block btn-default " onclick="myFunction(5)">CE</button>
+            </div>
+        </div>
         <div class="row">
             <div class="col-1">
-                <button type="button" class="btn btn-light "onclick="myFunction(7)">7</button>
+                <button type="button" class="btn btn-light " onclick="myFunction(7)">7</button>
             </div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction(8)"> 8</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction(9)">9</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction('+')">+</button></div>
-          </div>
-          <div class="row">
             <div class="col-1">
-                <button type="button" class="btn btn-light "onclick="myFunction(4)">4</button>
+                <button type="button" class="btn btn-light " onclick="myFunction(8)"> 8</button>
             </div>
-            <div class="col-1"><button type="button" class="btn btn-light " onclick="myFunction(5)">5</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction(6)">6</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction('-')">-</button></div>
-          </div>
-          <div class="row">
             <div class="col-1">
-                <button type="button" class="btn btn-light "onclick="myFunction(1)">1</button>
+                <button type="button" class="btn btn-light " onclick="myFunction(9)">9</button>
             </div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction(2)">2</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction(3)">3</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction('*')">*</button></div>
-          </div>
-          <div class="row">
             <div class="col-1">
-                <button type="button" class="btn btn-light"onclick="myFunction(0)">0</button>
+                <button type="button" class="btn btn-light " onclick="myFunction('+')">+</button>
             </div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction('.')">.</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light span-3 btn-block"onclick="myFunction(=)">=</button></div>
-            <div class="col-1"><button type="button" class="btn btn-light "onclick="myFunction('/')">/</button></div>
-          </div>
         </div>
-       
-      </div>
+        <div class="row">
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction(4)">4</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction(5)">5</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction(6)">6</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction('-')">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction(1)">1</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction(2)">2</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction(3)">3</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction('*')">*</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <button type="button" class="btn btn-light" onclick="myFunction(0)">0</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction('.')">.</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-primary span-3 btn-block" onclick="myFunction('=')">=</button>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-light " onclick="myFunction('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
